@@ -90,7 +90,7 @@ Discarded input sections
                 0x00000000       0x28 HAL/EX_EEPROM.o
  .debug_ranges  0x00000000       0x18 HAL/EX_EEPROM.o
  .debug_line    0x00000000      0x173 HAL/EX_EEPROM.o
- .debug_str     0x00000000      0x3a5 HAL/EX_EEPROM.o
+ .debug_str     0x00000000      0x3a4 HAL/EX_EEPROM.o
  .comment       0x00000000       0x31 HAL/EX_EEPROM.o
  .debug_frame   0x00000000       0x58 HAL/EX_EEPROM.o
  .text          0x00000000        0x0 HAL/KeyPad.o
@@ -124,7 +124,7 @@ Discarded input sections
                 0x00000000       0x28 HAL/Sensors.o
  .debug_ranges  0x00000000       0x18 HAL/Sensors.o
  .debug_line    0x00000000       0xab HAL/Sensors.o
- .debug_str     0x00000000      0x193 HAL/Sensors.o
+ .debug_str     0x00000000      0x192 HAL/Sensors.o
  .comment       0x00000000       0x31 HAL/Sensors.o
  .debug_frame   0x00000000       0x84 HAL/Sensors.o
  .text          0x00000000        0x0 HAL/Servo.o
@@ -140,7 +140,7 @@ Discarded input sections
                 0x00000000       0x28 HAL/Servo.o
  .debug_ranges  0x00000000       0x18 HAL/Servo.o
  .debug_line    0x00000000       0xa1 HAL/Servo.o
- .debug_str     0x00000000      0x33a HAL/Servo.o
+ .debug_str     0x00000000      0x339 HAL/Servo.o
  .comment       0x00000000       0x31 HAL/Servo.o
  .debug_frame   0x00000000       0x34 HAL/Servo.o
  .text          0x00000000        0x0 HAL/SEV_SEG.o
@@ -157,7 +157,7 @@ Discarded input sections
                 0x00000000       0x28 HAL/SEV_SEG.o
  .debug_ranges  0x00000000       0x18 HAL/SEV_SEG.o
  .debug_line    0x00000000      0x29f HAL/SEV_SEG.o
- .debug_str     0x00000000      0x2f4 HAL/SEV_SEG.o
+ .debug_str     0x00000000      0x2f3 HAL/SEV_SEG.o
  .comment       0x00000000       0x31 HAL/SEV_SEG.o
  .debug_frame   0x00000000       0x5c HAL/SEV_SEG.o
  .text          0x00000000        0x0 main.o
@@ -242,7 +242,7 @@ Discarded input sections
                 0x00000000       0x80 MCAL/I2C.o
  .debug_ranges  0x00000000       0x70 MCAL/I2C.o
  .debug_line    0x00000000      0x340 MCAL/I2C.o
- .debug_str     0x00000000      0x3ad MCAL/I2C.o
+ .debug_str     0x00000000      0x3ac MCAL/I2C.o
  .comment       0x00000000       0x31 MCAL/I2C.o
  .debug_frame   0x00000000       0xfc MCAL/I2C.o
  .text          0x00000000        0x0 MCAL/SPI.o
@@ -330,7 +330,7 @@ Discarded input sections
  .data          0x00000000        0x0 MCAL/TIMER2.o
  .bss           0x00000000        0x0 MCAL/TIMER2.o
  .debug_line    0x00000000        0x0 MCAL/TIMER2.o
- .debug_str     0x00000000      0x105 MCAL/TIMER2.o
+ .debug_str     0x00000000      0x104 MCAL/TIMER2.o
  .comment       0x00000000       0x31 MCAL/TIMER2.o
  .text          0x00000000        0x0 MCAL/UART.o
  .data          0x00000000        0x0 MCAL/UART.o
@@ -379,7 +379,7 @@ Discarded input sections
                 0x00000000       0x30 Services/Timer1_Services.o
  .debug_ranges  0x00000000       0x20 Services/Timer1_Services.o
  .debug_line    0x00000000      0x13d Services/Timer1_Services.o
- .debug_str     0x00000000      0x387 Services/Timer1_Services.o
+ .debug_str     0x00000000      0x386 Services/Timer1_Services.o
  .comment       0x00000000       0x31 Services/Timer1_Services.o
  .debug_frame   0x00000000       0x6c Services/Timer1_Services.o
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
@@ -1216,35 +1216,35 @@ END GROUP
  .debug_frame   0x00000794      0x294 MCAL/TIMER1.o
  .debug_frame   0x00000a28      0x184 MCAL/UART.o
 
-.debug_str      0x00000000     0x11a5
+.debug_str      0x00000000     0x11a4
  *(.debug_str)
  .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_str     0x00000196      0x319 APP/CALC.o
-                                0x352 (size before relaxing)
- .debug_str     0x000004af       0x4b CFG/DIO_CFG.o
-                                0x26a (size before relaxing)
- .debug_str     0x000004fa       0x1c CFG/KeyPad_Cfg.o
-                                0x170 (size before relaxing)
- .debug_str     0x00000516       0x79 HAL/KeyPad.o
-                                0x2ec (size before relaxing)
- .debug_str     0x0000058f       0x8d HAL/LCD.o
-                                0x37a (size before relaxing)
- .debug_str     0x0000061c       0x11 main.o
-                                0x174 (size before relaxing)
- .debug_str     0x0000062d      0x1ae MCAL/ADC.o
-                                0x32b (size before relaxing)
- .debug_str     0x000007db       0x8b MCAL/DIO.o
-                                0x342 (size before relaxing)
- .debug_str     0x00000866      0x11d MCAL/EX_Interrupt.o
-                                0x29f (size before relaxing)
- .debug_str     0x00000983       0xd5 MCAL/SPI.o
-                                0x25d (size before relaxing)
- .debug_str     0x00000a58      0x1f9 MCAL/TIMER0.o
-                                0x38d (size before relaxing)
- .debug_str     0x00000c51      0x429 MCAL/TIMER1.o
-                                0x5c1 (size before relaxing)
- .debug_str     0x0000107a      0x12b MCAL/UART.o
-                                0x2b7 (size before relaxing)
+ .debug_str     0x00000196      0x318 APP/CALC.o
+                                0x351 (size before relaxing)
+ .debug_str     0x000004ae       0x4b CFG/DIO_CFG.o
+                                0x269 (size before relaxing)
+ .debug_str     0x000004f9       0x1c CFG/KeyPad_Cfg.o
+                                0x16f (size before relaxing)
+ .debug_str     0x00000515       0x79 HAL/KeyPad.o
+                                0x2eb (size before relaxing)
+ .debug_str     0x0000058e       0x8d HAL/LCD.o
+                                0x379 (size before relaxing)
+ .debug_str     0x0000061b       0x11 main.o
+                                0x173 (size before relaxing)
+ .debug_str     0x0000062c      0x1ae MCAL/ADC.o
+                                0x32a (size before relaxing)
+ .debug_str     0x000007da       0x8b MCAL/DIO.o
+                                0x341 (size before relaxing)
+ .debug_str     0x00000865      0x11d MCAL/EX_Interrupt.o
+                                0x29e (size before relaxing)
+ .debug_str     0x00000982       0xd5 MCAL/SPI.o
+                                0x25c (size before relaxing)
+ .debug_str     0x00000a57      0x1f9 MCAL/TIMER0.o
+                                0x38c (size before relaxing)
+ .debug_str     0x00000c50      0x429 MCAL/TIMER1.o
+                                0x5c0 (size before relaxing)
+ .debug_str     0x00001079      0x12b MCAL/UART.o
+                                0x2b6 (size before relaxing)
 
 .debug_loc      0x00000000     0x2563
  *(.debug_loc)
